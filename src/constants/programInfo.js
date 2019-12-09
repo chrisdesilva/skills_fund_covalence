@@ -172,7 +172,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             loanInfo: { // // match loanInfo to Program 1 above
               maxLoanAmt: 12500,
               loanTerm36: true,
-              loanTerm60: true,
+              loanTerm60: false,
               '0': { 
                   k: 11, 
                   apr36: 10.76, 
@@ -209,7 +209,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
               loanInfo: { // match loanInfo to Program 2 loanInfo above
                 maxLoanAmt: 6000,
                 loanTerm36: true,
-                loanTerm60: true,
+                loanTerm60: false,
                 '0': { 
                     k: 8, 
                     apr36: 10.94, 
