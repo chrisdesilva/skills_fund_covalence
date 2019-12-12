@@ -148,41 +148,41 @@ export const interestRates = {
 export const moreThanSixPrograms = false // set to true if there are 7 or more programs in the loan application. True will render a dropdown menu, false will render buttons for each program.
 
 export const programLoanInfo = [ // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
-    {
-        name: "Immersive Full-Time (Catalyst) Program",
-        url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKCOVON18",
-        loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 12500,
-            loanTerm36: true,
-            loanTerm60: false,
-            '0': { // interest-only 
-                k: 11, 
-                apr36: 10.76, 
-                apr60: 12.51
-            },
-            '1': null // immediate repayment
-        },
-        defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
-        showMetros: false, // true if there are multiple metros with different tuition amounts for the same program
-        showLoanTypes: false, // true if both IR and IO are available
-        locations: ["Metro 1", "Metro 2", "Metro 3"],
-        metros: [ // list in same order as locations array above
-          {
-            location: "Metro 1",
-            loanInfo: { // // match loanInfo to Program 1 above
-              maxLoanAmt: 12500,
-              loanTerm36: true,
-              loanTerm60: false,
-              '0': { 
-                  k: 11, 
-                  apr36: 10.76, 
-                  apr60: 12.51
-              },
-              '1': null
-            }
-          }
-        ]
-    },
+    // {
+    //     name: "Immersive Full-Time (Catalyst) Program",
+    //     url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKCOVON18",
+    //     loanInfo: { // match loanInfo in first metro below
+    //         maxLoanAmt: 12500,
+    //         loanTerm36: true,
+    //         loanTerm60: false,
+    //         '0': { // interest-only 
+    //             k: 11, 
+    //             apr36: 10.76, 
+    //             apr60: 12.51
+    //         },
+    //         '1': null // immediate repayment
+    //     },
+    //     defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
+    //     showMetros: false, // true if there are multiple metros with different tuition amounts for the same program
+    //     showLoanTypes: false, // true if both IR and IO are available
+    //     locations: ["Metro 1", "Metro 2", "Metro 3"],
+    //     metros: [ // list in same order as locations array above
+    //       {
+    //         location: "Metro 1",
+    //         loanInfo: { // // match loanInfo to Program 1 above
+    //           maxLoanAmt: 12500,
+    //           loanTerm36: true,
+    //           loanTerm60: false,
+    //           '0': { 
+    //               k: 11, 
+    //               apr36: 10.76, 
+    //               apr60: 12.51
+    //           },
+    //           '1': null
+    //         }
+    //       }
+    //     ]
+    // },
     {
         name: "Flexible Part-Time (Molecular+) Program",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKCOVM19",
