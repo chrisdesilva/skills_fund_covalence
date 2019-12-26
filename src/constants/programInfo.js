@@ -157,7 +157,7 @@ export const programLoanInfo = [
 	// update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
 	{
 		name: 'Immersive Full-Time (Catalyst) Program',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKCOVM19',
+		url: 'https://my.skills.fund/application?lenderCode=SKCOVM19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 12500,
@@ -196,7 +196,7 @@ export const programLoanInfo = [
 	},
 	{
 		name: 'Flexible Part-Time (Molecular+) Program',
-		url: 'https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKCOVM19',
+		url: 'https://my.skills.fund/application?lenderCode=SKCOVM19',
 		loanInfo: {
 			// match loanInfo in first metro below
 			maxLoanAmt: 9500,
