@@ -155,7 +155,7 @@ export const faq = {
       colAmount: "$3,000",
     },
     {
-      programName: "Covalences's Immersive Part-Time Catalyst program",
+      programName: "Covalence's Immersive Part-Time Catalyst program",
       maxAmount: "$9,500",
       col: true,
       colAmount: "$3,000",
