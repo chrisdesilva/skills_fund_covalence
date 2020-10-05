@@ -49,7 +49,7 @@ export const schoolInfo = {
   immediateRepayment: [
     {
       // for multiple examples of immmediate repayment, add items to immediateRepayment array
-      programName: "the Flexible Part-Time (Molecular+) program",
+      programName: "the Immersive Part-Time Catalyst program",
       APR36: "11.34%",
       financeCharge36: "$1,142.45",
       FullMonthlyPayment36: "$198.40",
@@ -125,7 +125,7 @@ export const previewText = {
 
 export const faq = {
   // faq section
-  costOfLiving: false, // true if at least one program has cost of living included
+  costOfLiving: true, // true if at least one program has cost of living included
   costOfLivingPrograms: "", // leave as empty string is cost of living availability is the same across all programs
   multCostOfLivingPrograms: false, // true if costOfLivingPrograms string has more than one program
   interestOnly: true, // true if interest-only payments are an option
@@ -149,16 +149,16 @@ export const faq = {
   // max loan amounts by program for faq1
   loanRange: [
     {
-      programName: "Covalence's Immersive Full-Time (Catalyst) program",
+      programName: "Covalence's Immersive Full-Time Catalyst program",
       maxAmount: "$9,500",
       col: true,
       colAmount: "$3,000",
     },
     {
-      programName: "Covalences's Flexible Part-Time (Molecular+) program",
-      maxAmount: "$6,000",
-      col: false,
-      colAmount: "$6,000",
+      programName: "Covalences's Immersive Part-Time Catalyst program",
+      maxAmount: "$9,500",
+      col: true,
+      colAmount: "$3,000",
     },
   ],
 }
@@ -217,7 +217,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [
   // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
   {
-    name: "Immersive Full-Time (Catalyst) Program",
+    name: "Immersive Full-Time Catalyst Program",
     url: "https://my.skills.fund/application?lenderCode=SKCOVM19",
     loanInfo: {
       // match loanInfo in first metro below
@@ -257,7 +257,7 @@ export const programLoanInfo = [
     ],
   },
   {
-    name: "Flexible Part-Time (Molecular+) Program",
+    name: "Immersive Part-Time Catalyst Program",
     url: "https://my.skills.fund/application?lenderCode=SKCOVM19",
     loanInfo: {
       // match loanInfo in first metro below
